@@ -220,7 +220,7 @@ export default {
         focus: event => {
           this.$emit("focus", event);
           //document.removeEventListener('click',this.clickBlur)
-          this.focus(event);
+          // this.focus(event);
         },
         input: event => {
           if (this.autocomplete) {
